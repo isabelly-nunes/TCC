@@ -26,9 +26,7 @@
   font-family: var(--fonte-principal);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--preto);
-  text-decoration: none;
-  margin: 0 0 0 15px;
+  margin-left: 30px;
 }
 li {
   list-style: none;
@@ -42,11 +40,25 @@ li {
 
 .cabecalho__lupa {
   width: 23px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 
-/* Estilo do link do menu */
 .cabecalho__menu__link:hover {
-  border-bottom: 5px solid var(--laranja-principal);
-  font-size: 24px;
+  position: relative;
+}
+
+.cabecalho__menu__link:hover .osso {
+  display: block;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.osso {
+  display: none;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: -1;
+  width: 180px;
 }
