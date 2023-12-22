@@ -1,0 +1,379 @@
+@import url("styles/header.css");
+@import url("styles/time.css");
+
+/*variaveis CSS*/
+
+
+:root{
+    --laranja-principal: #FB8654;
+    --verde-principal: #6FEDD6;
+    --branco: #FDFDFD;
+    --preto: black;
+    --cor-de-fundo: #FDFDFD;
+    --fonte-principal: 'League Spartan';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: var(--cor-de-fundo);
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+/* Home */
+
+.apresentacao{
+    height: 99vh;
+    /* width: 100%; */
+    /* padding: 0; */
+    display:flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 10px;
+        
+}
+
+.apresentacao__conteudo{
+    font-family: var(--fonte-principal);
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+       
+    
+
+}
+
+.animais__home{
+    /*float: right;*/
+    /* max-width: 100%;
+    max-height: 100%;
+    border-radius: 2%; */
+    width: 45%;
+}
+
+
+/* Sobre nós */
+
+.apresentacao__sobrenos{
+    /*height: 99vh;*/
+    /* width: 100%; */
+    padding: 9% 0% 15% 0%;
+    display:flex;
+    justify-content: center;
+    /* gap: 30px;         */
+}
+
+.container__conteudo__texto{
+    width: 60%;
+}
+
+.apresentacao__conteudo__sobrenos{
+    font-family: var(--fonte-principal);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    top: 15px;
+    border: 3.5px dashed;
+    border-color: var(--verde-principal);
+    border-radius: 24px;
+    /* background-color: transparent; */
+    padding: 1.5%;
+    /* object-fit: cover; */
+    right: 11%;
+    /* height: 59vh;   */
+
+}
+
+.apresentacao__conteudo__titulo{
+    padding: 0 0 0 3%;
+    font-size: 4.5rem;
+    font-family: var(--fonte-principal);
+    /* text-align:left; */
+    /* width: 90%; */
+}
+
+.titulo__destaque{
+    color: var(--laranja-principal);
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 1.75rem;
+    font-family: var(--fonte-principal);
+    text-align: left;
+        
+}
+
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.50rem;
+    
+}
+
+.apresentacao__links__navegacao {
+    background-color: var(--laranja-principal);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+     /*border: solid var(--laranja-principal);*/
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+.container__links__botao{
+    display: flex;
+    gap: 20px;
+}
+
+body > main > section.container__imagem__cachorro > img{
+    border-radius: 24px;
+    /* width: 100%; */
+    position: relative;
+    top: 35px;
+    right: 18%;
+}
+
+.container__imagem__cachorro{
+    position: absolute;
+    /*top: 10%;*/
+    left: 53%;
+    width: 38%;
+    height: 80%;
+    /* object-fit: cover; */
+}
+
+.frase__time{
+    padding-left: 180px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+.frase__cor{
+    color: var(--verde-principal)
+}
+
+
+
+
+/* Nossos serviços  */
+
+.apresentacao__servicos{
+    height: 99vh;
+    width: 100%;
+}
+
+.container__imagem__servicos__unidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+
+/*.container__imagem__servicos{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    /*gap:20px;*/
+    /*padding: 15% 5%;*/
+    /*margin-top: 250px;*/
+
+
+.imagem__servicos{
+    border-radius: 24px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.container__imagem__servicos img{
+    /*width: 100%;
+    height: 100%;*/
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+ }
+
+.container__imagem__servicos:hover img{
+    -webkit-transform: scale(1.11);
+    transform: scale(1.11);
+}
+
+.apresentacao__links__servicos{
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.25em;
+    
+}
+
+.texto__servicos{
+    margin-top: 7px;
+    color: var(--preto)
+}
+
+
+/* Saiba mais  */
+
+
+.width__saibamais{
+    width: 88%;
+}
+
+.apresentacao__saibamais{
+    /*height: 99vh;*/
+    /* width: 100%; */
+    padding: 7.5% 0% 0% 0%;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+
+        
+}
+    
+.apresentacao__conteudo__saibamais{
+    font-family: var(--fonte-principal);
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /*position: relative;*/
+    top: 15px;
+    border: 3.5px dashed;
+    border-color: var(--verde-principal);
+    border-radius: 24px;
+    /* background-color: transparent; */
+    padding: 1.5%;
+    /* object-fit: cover; */
+    right: 15%;
+    /* height: 60vh;   */
+
+}
+
+.saiba__mais{
+    margin: 10px;
+}
+
+.imagens__saibamais{
+    display: flex; 
+    justify-content: center;
+}
+
+.container__imagem__saibamais{
+    padding: 15px;
+    
+}
+
+.margin-bottom{
+    margin-bottom: 35px;
+    text-align: center; 
+}
+
+.margin-top{
+    margin-top: 12px;
+}
+
+.text-align__saibamais{
+    text-align: center;
+}
+
+
+.rodape__logo{    
+    margin-bottom: 2em 0;
+    width: 10%;
+}
+
+
+/* Footer */
+
+.rodape{
+    font-family: var(--fonte-principal);
+    background: var(--verde-principal);
+    text-align: center;
+    /* margin: 3em 1em; */
+    margin-top: 100px;
+    padding: 0.1px;
+}
+
+.redes__footer{
+    margin: 1.5em;
+}
+.botoes__redes-footer{
+    width: 30%;
+}
+
+.botoes__footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+}
+
+.apresentacao__links__botao{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: var(--preto);
+}
+
+.texto-footer{
+    margin: 8px;
+}
+
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1.5em;
+
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto{
+    margin: 2em 0;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+}
+
+
+
+
+
+
+.imagem__time{
+    width: 150px;
+    display: inline-block;
+   gap: 10px;
+}

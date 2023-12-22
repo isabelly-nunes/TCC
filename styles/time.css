@@ -1,0 +1,12 @@
+.apresentacao__conteudo__titulo__time{
+    padding: 0 0 0 3%;
+    font-size: 4.5rem;
+    font-family: var(--fonte-principal);
+    text-align:left;
+    width: 90%;
+}
+
+.imagem__time{
+    width: 50px;
+    display: inline;
+}

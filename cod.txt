@@ -1,0 +1,47 @@
+}
+
+.principal{
+    /*background-image: url("assets/animais_home.png");
+    background-repeat: no-repeat;*/
+    text-align: left;
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.container {
+   /* background-color: aqua;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;*/
+
+}
+
+.container__caixa{
+    background-color: #FB8654;
+    float: left;
+}
+
+.container__menu{
+    background-color: pink;
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+        
+}
+
+.container__titulo{
+    background-color: red;
+    text-align: left;
+    float: left;
+
+
+}
+
+.animais__home{
+    background-color: chartreuse;
+    float: right; 
+}
